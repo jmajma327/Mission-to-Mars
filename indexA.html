@@ -51,8 +51,7 @@
       <div class="row" id="mars-hemispheres">
         <div class="page-header">
           <h2 class="text-center">Mars Hemispheres</h2>
-        </div>
-        {% for hemisphere in mars.hemispheres %}
+          {% for hemisphere in mars.hemispheres %}
         <div class="col-md-3">
           <div class="thumbnail">
             <img src="{{hemisphere.img_url }}" alt="...">
@@ -62,6 +61,7 @@
           </div>
         </div>
         {% endfor %}
+        </div>
       </div>
     </div>
   </body>
